@@ -4,5 +4,6 @@ script:
 -mvn clean package
 -mvn sonar: sonar -Dsonar.projectKey=pacquito_fcd 
 -Dsonar.organization=pacquito-github 
--Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+-Dsonar.host.url=https://sonarcloud.io 
+-Dsonar.login=$SONAR_TOKEN
 
