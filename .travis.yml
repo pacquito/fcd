@@ -2,5 +2,5 @@ language: java
 
 script: 
  -mvn clean package
- -mvn sonar:sonar -Dsonar.projectKey=pacquito_fcd -Dsonar.organization=pacquito-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+ -mvn sonar:sonar -Dsonar.projectKey=pacquito_fcd -Dsonar.organization=pacquito-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=86f96bfafa7084ffabc7afce535899a3a181aece
 
