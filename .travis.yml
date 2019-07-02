@@ -1,5 +1,8 @@
-mvn sonar:sonar \
-  -Dsonar.projectKey=pacquito_fcd \
-  -Dsonar.organization=pacquito-github \
-  -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=46c12e944e57b2f7430f160a53b5f5d6aceb7ed0
+language: java
+
+script: 
+-mvn clean package
+-mvn sonar: sonar -Dsonar.projectKey=pacquito_fcd 
+-Dsonar.organization=pacquito-github 
+-Dsonar.host.url=https://sonarcloud.io 
+-Dsonar.login=46c12e944e57b2f7430f160a53b5f5d6aceb7ed0
